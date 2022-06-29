@@ -77,7 +77,7 @@ h2 {
 
 fieldset.oor {
 
-
+font-size: small;
     border-top: 1px solid;
     border-bottom: none;
     border-right: none;
@@ -124,7 +124,7 @@ text-transform: capitalize;
 
 }
 .myAccount{
-font-size: small;
+font-size: x-small;
 font-family: Arial, Helvetica, sans-serif;
 text-transform: capitalize;
 
