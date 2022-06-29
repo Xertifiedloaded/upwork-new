@@ -18,7 +18,7 @@ h1 {
     text-align: center;
     color: green;
     font-size: 100%;
-    padding-bottom:10px; 
+    padding-bottom: 10px;
 
 
 }
@@ -35,8 +35,8 @@ h1 {
     margin-right: 50%;
     margin-left: 20%;
     border-width: 2px;
-    
-    
+
+
 }
 
 
@@ -57,7 +57,7 @@ h2 {
 }
 
 .my-username {
-    
+
     font-size: 15px;
     font-size: 60%;
     border-radius: 5px;
@@ -79,23 +79,23 @@ h2 {
 
 .email-btn {
 
- font-size: 15px;
- font-size: 60%;
- border-radius: 5px;
- border-color: green;
- padding-left: 30px;
- padding-right: 20px;
+    font-size: 15px;
+    font-size: 60%;
+    border-radius: 5px;
+    border-color: green;
+    padding-left: 30px;
+    padding-right: 20px;
 
- margin-top: 5px;
- color: white;
- background-color: green;
- /* margin: 1; */
- padding-right: 25px;
- padding-top: 5px;
- padding-bottom: 5px;
- font-weight: bolder;
- text-transform: capitalize;
- width: 50vw;
+    margin-top: 5px;
+    color: white;
+    background-color: green;
+    /* margin: 1; */
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    width: 50vw;
 }
 
 fieldset.oor {
@@ -112,12 +112,12 @@ legend {
 }
 
 .gmail-btn {
- 
+
     font-size: 15px;
     font-size: 60%;
     border-radius: 5px;
     border-color: rgba(0, 0, 255, 0.553);
-    background-color:rgba(0, 0, 255, 0.815) ;
+    background-color: rgba(0, 0, 255, 0.815);
     padding-left: 30px;
     padding-right: 20px;
 
@@ -184,4 +184,37 @@ hr {
     text-transform: capitalize;
     width: 50vw;
     border-radius: 20px;
+    color: green;
+}
+
+#my-footer{
+    text-align: center;
+    border: 1px solid black;
+    padding: 30px;
+    font-size: small;
+    background-color: black;
+
+}
+p{
+    margin: 10px;
+    text-transform: capitalize;
+    
+
+
+}
+a:active{
+color: yellow;
+
+}
+a:hover{
+color:white;
+}
+
+a:visited{
+    color:blue;
+}
+.myPara{
+color: white;
+
+
 }
