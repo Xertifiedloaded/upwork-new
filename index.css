@@ -32,7 +32,7 @@ img {
     margin-right: 50%;
     margin-left: 20%;
 }
-@media screen and(min-width:855px) and (max-width:538)
+@media only screen and(min-width:768px) and (max-width:538)
     
   {}  
 
@@ -123,4 +123,7 @@ font-weight: bolder;
 text-transform: capitalize;
 
 }
-
+@media only screen and(min-width:) {
+.oor{
+    font-size: small;    
+}
