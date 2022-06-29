@@ -123,7 +123,9 @@ font-weight: bolder;
 text-transform: capitalize;
 
 }
-@media only screen and(min-width:) {
-.oor{
-    font-size: small;    
+.myAccount{
+font-size: small;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: capitalize;
+
 }
