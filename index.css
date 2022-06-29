@@ -10,6 +10,7 @@ body {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 
+
 }
 
 .my-header,
@@ -17,10 +18,8 @@ h1 {
     text-align: center;
     color: green;
     font-size: 100%;
-}
+    padding-bottom:10px; 
 
-h1 {
-    /* color: green;  */
 
 }
 
@@ -34,14 +33,19 @@ h1 {
     height: 80vh;
     margin: 100px;
     margin-right: 50%;
-    margin-left: 20%
+    margin-left: 20%;
+    border-width: 2px;
+    
+    
 }
 
 
 h2 {
-    font-weight: 500;
+    padding: 10px;
+    font-weight: bold;
     text-transform: capitalize;
     font-size: 10px;
+
 }
 
 @media only screen and (min-width:392px) {
@@ -53,15 +57,7 @@ h2 {
 }
 
 .my-username {
-    /* font-size: 14px;
-    border-radius: 5px;
-    border-color: green;
-    margin-right: 5px;
-    color: white;
-    margin: 1;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    margin-top: 2px; */
+    
     font-size: 15px;
     font-size: 60%;
     border-radius: 5px;
@@ -89,10 +85,10 @@ h2 {
  border-color: green;
  padding-left: 30px;
  padding-right: 20px;
- /* padding-inline-start: 23px;
- padding-inline-end: 15px; */
+
  margin-top: 5px;
- color: black;
+ color: white;
+ background-color: green;
  /* margin: 1; */
  padding-right: 25px;
  padding-top: 5px;
@@ -120,13 +116,13 @@ legend {
     font-size: 15px;
     font-size: 60%;
     border-radius: 5px;
-    border-color: green;
+    border-color: rgba(0, 0, 255, 0.553);
+    background-color:rgba(0, 0, 255, 0.815) ;
     padding-left: 30px;
     padding-right: 20px;
-    /* padding-inline-start: 23px;
-    padding-inline-end: 15px; */
+
     margin-top: 5px;
-    color: black;
+    color: white;
     /* margin: 1; */
     padding-right: 25px;
     padding-top: 5px;
@@ -134,6 +130,7 @@ legend {
     font-weight: bolder;
     text-transform: capitalize;
     width: 50vw;
+    border-radius: 20px;
 }
 
 .gmail-phone {
@@ -144,8 +141,7 @@ legend {
     border-color: green;
     padding-left: 30px;
     padding-right: 20px;
-    /* padding-inline-start: 23px;
-    padding-inline-end: 15px; */
+
     margin-top: 5px;
     color: black;
     /* margin: 1; */
@@ -155,6 +151,7 @@ legend {
     font-weight: bolder;
     text-transform: capitalize;
     width: 50vw;
+    border-radius: 20px;
 }
 
 .myAccount {
@@ -177,8 +174,6 @@ hr {
     border-color: green;
     padding-left: 30px;
     padding-right: 20px;
-    /* padding-inline-start: 23px;
-    padding-inline-end: 15px; */
     margin-top: 5px;
     color: black;
     /* margin: 1; */
@@ -188,4 +183,5 @@ hr {
     font-weight: bolder;
     text-transform: capitalize;
     width: 50vw;
+    border-radius: 20px;
 }
